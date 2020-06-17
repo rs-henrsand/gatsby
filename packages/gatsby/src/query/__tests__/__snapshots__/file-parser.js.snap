@@ -59,7 +59,7 @@ Array [
       },
     },
     "filePath": "page-query.js",
-    "hash": 3530286846,
+    "hash": 3118863590,
     "isHook": false,
     "isStaticQuery": false,
     "templateLoc": SourceLocation {
@@ -72,7 +72,11 @@ Array [
         "line": 2,
       },
     },
-    "text": "query PageQueryName{foo}",
+    "text": "
+query PageQueryName {
+  foo
+}
+",
   },
   Object {
     "doc": Object {
@@ -131,7 +135,7 @@ Array [
       },
     },
     "filePath": "page-query-indirect.js",
-    "hash": 1314068098,
+    "hash": 1041797972,
     "isHook": false,
     "isStaticQuery": false,
     "templateLoc": SourceLocation {
@@ -144,7 +148,11 @@ Array [
         "line": 2,
       },
     },
-    "text": "query PageQueryIndirect{foo}",
+    "text": "
+query PageQueryIndirect {
+  foo
+}
+",
   },
   Object {
     "doc": Object {
@@ -203,7 +211,7 @@ Array [
       },
     },
     "filePath": "page-query-indirect-2.js",
-    "hash": 1258001265,
+    "hash": 934529778,
     "isHook": false,
     "isStaticQuery": false,
     "templateLoc": SourceLocation {
@@ -216,7 +224,11 @@ Array [
         "line": 2,
       },
     },
-    "text": "query PageQueryIndirect2{foo}",
+    "text": "
+query PageQueryIndirect2 {
+  foo
+}
+",
   },
   Object {
     "doc": Object {
@@ -230,7 +242,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "pageQueryNoNameJs1125018085",
+            "value": "pageQueryNoNameJs2538359280",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -271,7 +283,7 @@ Array [
       },
     },
     "filePath": "page-query-no-name.js",
-    "hash": 1125018085,
+    "hash": 2538359280,
     "isHook": false,
     "isStaticQuery": false,
     "templateLoc": SourceLocation {
@@ -284,7 +296,11 @@ Array [
         "line": 2,
       },
     },
-    "text": "query{foo}",
+    "text": "
+query {
+  foo
+}
+",
   },
   Object {
     "doc": Object {
@@ -343,7 +359,7 @@ Array [
       },
     },
     "filePath": "static-query.js",
-    "hash": 2687344169,
+    "hash": 407706182,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -356,7 +372,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "query StaticQueryName{foo}",
+    "text": "query StaticQueryName { foo }",
   },
   Object {
     "doc": Object {
@@ -370,7 +386,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "staticQueryNoNameJs3221935794",
+            "value": "staticQueryNoNameJs2605331189",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -411,7 +427,7 @@ Array [
       },
     },
     "filePath": "static-query-no-name.js",
-    "hash": 3221935794,
+    "hash": 2605331189,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -424,7 +440,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "{foo}",
+    "text": "{ foo }",
   },
   Object {
     "doc": Object {
@@ -483,7 +499,7 @@ Array [
       },
     },
     "filePath": "static-query-named-export.js",
-    "hash": 2687344169,
+    "hash": 407706182,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -496,7 +512,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "query StaticQueryName{foo}",
+    "text": "query StaticQueryName { foo }",
   },
   Object {
     "doc": Object {
@@ -510,7 +526,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "staticQueryClosingTagJs3221935794",
+            "value": "staticQueryClosingTagJs2605331189",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -551,7 +567,7 @@ Array [
       },
     },
     "filePath": "static-query-closing-tag.js",
-    "hash": 3221935794,
+    "hash": 2605331189,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -564,7 +580,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "{foo}",
+    "text": "{ foo }",
   },
   Object {
     "doc": Object {
@@ -623,7 +639,7 @@ Array [
       },
     },
     "filePath": "page-query-and-static-query-named-export.js",
-    "hash": 2687344169,
+    "hash": 407706182,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -636,7 +652,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "query StaticQueryName{foo}",
+    "text": "query StaticQueryName { foo }",
   },
   Object {
     "doc": Object {
@@ -695,7 +711,7 @@ Array [
       },
     },
     "filePath": "page-query-and-static-query-named-export.js",
-    "hash": 3530286846,
+    "hash": 155828431,
     "isHook": false,
     "isStaticQuery": false,
     "templateLoc": SourceLocation {
@@ -708,7 +724,7 @@ Array [
         "line": 8,
       },
     },
-    "text": "query PageQueryName{foo}",
+    "text": "query PageQueryName { foo }",
   },
   Object {
     "doc": Object {
@@ -839,7 +855,7 @@ Array [
       },
     },
     "filePath": "multiple-fragment-exports.js",
-    "hash": 1171727280,
+    "hash": 405302220,
     "isHook": false,
     "isStaticQuery": false,
     "templateLoc": SourceLocation {
@@ -852,7 +868,14 @@ Array [
         "line": 2,
       },
     },
-    "text": "fragment Fragment1 on RootQueryField{foo}fragment Fragment2 on RootQueryField{bar}",
+    "text": "
+  fragment Fragment1 on RootQueryField {
+    foo
+  }
+  fragment Fragment2 on RootQueryField {
+    bar
+  }
+",
   },
   Object {
     "doc": Object {
@@ -924,7 +947,7 @@ Array [
       },
     },
     "filePath": "multiple-fragment-exports.js",
-    "hash": 3923246124,
+    "hash": 1478112168,
     "isHook": false,
     "isStaticQuery": false,
     "templateLoc": SourceLocation {
@@ -937,7 +960,11 @@ Array [
         "line": 10,
       },
     },
-    "text": "fragment Fragment3 on RootQueryField{baz}",
+    "text": "
+  fragment Fragment3 on RootQueryField {
+    baz
+  }
+",
   },
   Object {
     "doc": Object {
@@ -951,7 +978,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "fragmentShorthandJs3159585216",
+            "value": "fragmentShorthandJs1097489062",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -1046,7 +1073,7 @@ Array [
       },
     },
     "filePath": "fragment-shorthand.js",
-    "hash": 3159585216,
+    "hash": 1097489062,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1059,7 +1086,15 @@ Array [
         "line": 4,
       },
     },
-    "text": "query{site{siteMetadata{title}}}",
+    "text": "
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+",
   },
   Object {
     "doc": Object {
@@ -1073,7 +1108,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "queryInSeparateVariableJs1528532020",
+            "value": "queryInSeparateVariableJs3748317405",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -1195,7 +1230,7 @@ Array [
       },
     },
     "filePath": "query-in-separate-variable.js",
-    "hash": 1528532020,
+    "hash": 3748317405,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1208,7 +1243,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "{allMarkdownRemark{blah{node{cheese}}}}",
+    "text": "{ allMarkdownRemark { blah { node { cheese }}}}",
   },
   Object {
     "doc": Object {
@@ -1222,7 +1257,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "queryInSeparateVariable2Js278713111",
+            "value": "queryInSeparateVariable2Js1352988887",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -1344,7 +1379,7 @@ Array [
       },
     },
     "filePath": "query-in-separate-variable-2.js",
-    "hash": 278713111,
+    "hash": 1352988887,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1357,7 +1392,7 @@ Array [
         "line": 5,
       },
     },
-    "text": "{allStrangeQueryName{blah{node{cheese}}}}",
+    "text": "{ allStrangeQueryName { blah { node { cheese }}}}",
   },
   Object {
     "doc": Object {
@@ -1416,7 +1451,7 @@ Array [
       },
     },
     "filePath": "static-query-hooks.js",
-    "hash": 2687344169,
+    "hash": 407706182,
     "isHook": true,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1429,7 +1464,7 @@ Array [
         "line": 3,
       },
     },
-    "text": "query StaticQueryName{foo}",
+    "text": "query StaticQueryName { foo }",
   },
   Object {
     "doc": Object {
@@ -1488,7 +1523,7 @@ Array [
       },
     },
     "filePath": "static-query-hooks-with-other-export.js",
-    "hash": 2687344169,
+    "hash": 407706182,
     "isHook": true,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1501,7 +1536,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "query StaticQueryName{foo}",
+    "text": "query StaticQueryName { foo }",
   },
   Object {
     "doc": Object {
@@ -1560,7 +1595,7 @@ Array [
       },
     },
     "filePath": "static-query-hooks-alternative-import.js",
-    "hash": 2687344169,
+    "hash": 407706182,
     "isHook": true,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1573,7 +1608,7 @@ Array [
         "line": 3,
       },
     },
-    "text": "query StaticQueryName{foo}",
+    "text": "query StaticQueryName { foo }",
   },
   Object {
     "doc": Object {
@@ -1632,7 +1667,7 @@ Array [
       },
     },
     "filePath": "static-query-hooks-with-type-parameter.ts",
-    "hash": 2687344169,
+    "hash": 407706182,
     "isHook": true,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1645,7 +1680,7 @@ Array [
         "line": 3,
       },
     },
-    "text": "query StaticQueryName{foo}",
+    "text": "query StaticQueryName { foo }",
   },
   Object {
     "doc": Object {
@@ -1659,7 +1694,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "staticQueryHooksInSeparateVariableJs1528532020",
+            "value": "staticQueryHooksInSeparateVariableJs3748317405",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -1781,7 +1816,7 @@ Array [
       },
     },
     "filePath": "static-query-hooks-in-separate-variable.js",
-    "hash": 1528532020,
+    "hash": 3748317405,
     "isHook": true,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1794,7 +1829,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "{allMarkdownRemark{blah{node{cheese}}}}",
+    "text": "{ allMarkdownRemark { blah { node { cheese }}}}",
   },
   Object {
     "doc": Object {
@@ -1808,7 +1843,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "zhADollarpercentandJs1125018085",
+            "value": "zhADollarpercentandJs1646962495",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -1849,7 +1884,7 @@ Array [
       },
     },
     "filePath": "ж-ä-!@#$%^&*()_-=+:;'\\"?,~\`.js",
-    "hash": 1125018085,
+    "hash": 1646962495,
     "isHook": true,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1862,7 +1897,7 @@ Array [
         "line": 3,
       },
     },
-    "text": "query{foo}",
+    "text": "query { foo }",
   },
   Object {
     "doc": Object {
@@ -1876,7 +1911,7 @@ Array [
           },
           "name": Object {
             "kind": "Name",
-            "value": "staticZhADollarpercentandJs1125018085",
+            "value": "staticZhADollarpercentandJs1646962495",
           },
           "operation": "query",
           "selectionSet": Object {
@@ -1917,7 +1952,7 @@ Array [
       },
     },
     "filePath": "static-ж-ä-!@#$%^&*()_-=+:;'\\"?,~\`.js",
-    "hash": 1125018085,
+    "hash": 1646962495,
     "isHook": false,
     "isStaticQuery": true,
     "templateLoc": SourceLocation {
@@ -1930,7 +1965,7 @@ Array [
         "line": 4,
       },
     },
-    "text": "query{foo}",
+    "text": "query { foo }",
   },
 ]
 `;
